@@ -1,0 +1,159 @@
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+.mycols {
+    border-right: 1px solid #cfcfcf;
+    padding-top: 50px;
+    min-height: 600px;
+    padding-left: 30px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+h2{
+	padding:70px;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 1.5s steps(90, end),
+    blink-caret .75s step-end infinite;
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.ordertable,table
+{
+padding-left:300px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width: 300px;
+  height:130%;
+  top:-10px;
+  position:absolute;
+  background-color: #ff4017;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 40px 40px;
+  margin:0;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+
+  background-color: #555;
+  color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 1.5s steps(90, end),
+    blink-caret .75s step-end infinite;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+hr{
+	color:#ff4017;
+}
+body
+{
+    background: #eeeeee;
+}
+img{
+position:relative;
+height:150px;
+width:150px;
+margin:50px;
+}
+.textBox
+{
+position:absolute;
+left:500px;
+padding:-100px;
+
+}
+.login-btn {
+	box-shadow: 0px 10px 14px -7px #d052fa;
+	background:linear-gradient(to bottom, #994fa4 5%, #fadbff 100%);
+	background-color:#994fa4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #843e8a;
+	width:130px;
+	
+}
+.login-btn:hover {
+	background:linear-gradient(to bottom, #fadbff 5%, #e357ff 100%);
+	background-color:#fadbff;
+}
+.login-btn:active {
+	position:relative;
+	top:1px;
+}
+a
+{
+text-decoration: none;
+color:black;
+}
+.form-container
+{
+background-color:#f4b3ff;
+position:relative;
+top:100px;
+align:center;
+padding:50px;
+width:40%;
+overflow:hidden;
+
+font-family: 'Brush Script MT', cursive;
+border-radius:25px;
+}
+input{
+margin:30px;
+padding:20px;
+margin-right:40px;
+font-family: 'Brush Script MT', cursive;
+font-size:24px;
+width:200px;
+position:relative;
+
+}
+span{
+position:relative;
+float:left;
+margin-left:40px;
+font-size:24px;
+}
+h1
+{
+font-size:30px;
+}
+

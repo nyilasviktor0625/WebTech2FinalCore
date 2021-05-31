@@ -1,0 +1,244 @@
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+.mycols {
+    border-right: 1px solid #cfcfcf;
+    padding-top: 50px;
+    min-height: 600px;
+    padding-left: 30px;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.ordertable
+{
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width: 300px;
+  height:150%;
+  position:absolute;
+  background-color: #ff4017;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 40px 40px;
+  margin:0;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+
+  background-color: #555;
+  color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 1.5s steps(90, end),
+    blink-caret .75s step-end infinite;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+body {
+    background: #eeeeee;
+}
+img{
+position:relative;
+height:150px;
+width:150px;
+margin:50px;
+}
+.textBox
+{
+position:absolute;
+left:500px;
+padding:-100px;
+
+}
+th
+{
+padding:15px;
+}
+hr
+{
+border:1px dashed #571961;
+color:#571961;
+}
+h1
+{
+padding:20px;
+ overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+	width:30%;
+}
+.inputtable
+{
+	float:center;
+	 margin-left: auto;
+  margin-right: auto;
+}
+h2{
+	padding:50px;
+
+ overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+	width:30%;
+
+}
+.writerloremipsum{
+	width:50%;
+	position:relative;
+	float:center;
+	text-align:justify;
+	padding:70px;
+	top:30px;
+	transition: border-radius 2s;
+	
+}
+.writerloremipsum:hover{
+	background-color:white;
+	border-radius:105px;
+}
+p{
+	font-size:20px;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+table{
+	float:right;
+  border-collapse: collapse;
+  width: 80%;
+  right:100px;
+
+}
+
+td, th {
+  border: 1px solid #571961;
+  padding: 5px;
+}
+
+tr:nth-child(even){background-color: #efc6f6;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #ff4017;
+  color: black;
+}
+.login-btn {
+	box-shadow: 0px 10px 14px -7px #eeeeee;
+	background:linear-gradient(to bottom, #ff4017 5%, black 100%);
+	background-color:#ff4017;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #843e8a;
+	width:160px;
+	
+}
+.login-btn:hover {
+	background:linear-gradient(to bottom, #ff4017 5%, black 100%);
+	background-color:#ff4017;
+	color:white;
+}
+.login-btn:active {
+	position:relative;
+	top:1px;
+}
+a
+{
+text-decoration: none;
+color:black;
+}
+.form-container
+{
+background-color:#f4b3ff;
+position:relative;
+top:100px;
+align:center;
+padding:50px;
+width:40%;
+overflow:hidden;
+
+font-family: 'Brush Script MT', cursive;
+border-radius:25px;
+}
+input{
+margin:30px;
+padding:20px;
+margin-right:40px;
+font-family: 'Brush Script MT', cursive;
+font-size:24px;
+transition: border-radius 2s;
+border:2px solid black;
+width:80%;
+}
+input:hover{
+border-radius:95px;
+}
+span{
+position:relative;
+float:left;
+margin-left:40px;
+font-size:24px;
+}
+h1
+{
+font-size:30px;
+}
+
